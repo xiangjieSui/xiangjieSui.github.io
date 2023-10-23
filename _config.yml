@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Homepage"
-description              : "Xiangjie Sui's homepage "
+title                    : "Xiangjie Sui 眭相杰"
+description              : "Ph.D. candidate in JUFE, Key Lab of Digital Media. Focusing on visual signal processing and quality assessment."
 repository               : "xiangjieSui/xiangjieSui.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,13 +22,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Xiangjie Sui"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
+  avatar           : "images/bio.jpg"
+  bio              : "Jiangxi University of Finance and Economics" 
+  location         : "Jiangxi, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  googlescholar    : "https://scholar.google.com/citations?user=IAnTG2cAAAAJ&hl"
+  email            : "xjsui@foxmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : xiangjieSui
   google_plus      :
   keybase          :
   instagram        :
