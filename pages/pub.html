@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications</title>
+    <title>Publications | Xiangjie Sui</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #ffffff;
             margin: 0;
             padding: 20px;
+            box-sizing: border-box;
+        }
+        *, *::before, *::after {
+            box-sizing: inherit;
         }
         .container {
             max-width: 800px;
@@ -35,6 +39,7 @@
         .publication h2 {
             font-size: 1.0em;
             margin: 0 0 3px 0;
+            line-height: 1.35;
         }
         .publication h3 {
             font-size: 1.2em;
@@ -59,6 +64,33 @@
         .publication-links a:hover {
             text-decoration: underline;
         }
+        @media (max-width: 700px) {
+            body {
+                padding: 12px;
+            }
+            .container {
+                padding: 24px;
+                border-radius: 8px;
+            }
+            h1 {
+                font-size: 1.6em;
+                margin-bottom: 20px;
+            }
+            .publication {
+                margin-bottom: 14px;
+                padding-bottom: 12px;
+            }
+            .publication h2 {
+                font-size: 0.98em;
+            }
+            .publication h3 {
+                font-size: 1.1em;
+            }
+            .publication-details,
+            .publication-links a {
+                font-size: 0.88em;
+            }
+        }
     </style>
 </head>
 <body>
@@ -70,25 +102,48 @@
         <div class="publication">
             <hr size=20pt; color="white">
             <h3>● Preprints</h3><br>
-            <!-- <hr size=1pt; color='#f0f0f0'><br> -->
-            <h2>Mitigating Perception Bias: A Training-Free Approach to Enhance LMM for Image Quality Assessment</h2>
+            <h2>Diagnosing Corruption-Induced Reliability Failures in Vision-Language Models</h2>
             <div class="publication-details">
-                Siyi Pan, Baoliang Chen, Danni Huang, Hanwei Zhu, Lingyu Zhu, Xiangjie Sui, Shiqi Wang<br>
+                Xiangjie Sui, Songyang Li, Hanwei Zhu, Baoliang Chen, Yuming Fang, Xin Sun<br>
+                <em>arXiv preprint arXiv:2511.19032</em>, 2025.
             </div>
             <div class="publication-links">
-                <a href="https://arxiv.org/pdf/2411.12791.pdf">[PDF]</a>
+                <a href="https://arxiv.org/pdf/2511.19032">[PDF]</a>
             </div>
         </div>
 
         <div class="publication">
             <h3>● Conference</h3><br>
+            <h2>Mitigating Perception Bias: A Training-Free Approach to Enhance LMM for Image Quality Assessment</h2>
+            <div class="publication-details">
+                Baoliang Chen, Siyi Pan, Dongxu Wu, Liang Xie, Xiangjie Sui, Lingyu Zhu, Hanwei Zhu<br>
+                <em>Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)</em>, 2026. <strong>(Best Poster Paper)</strong>
+            </div>
+            <div class="publication-links">
+                <a href="https://doi.org/10.1609/aaai.v40i4.37265">[PDF]</a>
+                <a href="https://barrypan12138.github.io/Q-Debias/">[Code]</a>
+            </div>
+        </div>
+
+        <div class="publication">
+            <h2>CTU-Level Rate Control with λ Optimization Based on Visual Gaze Mechanism for 360-Degree Versatile Video Coding</h2>
+            <div class="publication-details">
+                Zeming Zhao, Meng Wang, Xiangjie Sui, Xiaohai He, Shiqi Wang<br>
+                <em>IEEE International Conference on Image Processing (ICIP)</em>, 2025.
+            </div>
+            <div class="publication-links">
+                <a href="https://ieeexplore.ieee.org/">[PDF]</a>
+            </div>
+        </div>
+
+        <div class="publication">
             <h2>A Survey on Objective Quality Assessment of Omnidirectional Images</h2>
             <div class="publication-details">
                 Xiangjie Sui, Shiqi Wang, Yuming Fang<br>
                 <em>Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA)</em>, 2024.
             </div>
             <div class="publication-links">
-                <a href="http://www.apsipa2024.org/files/papers/122.pdf.">[PDF]</a>
+                <a href="http://www.apsipa2024.org/files/papers/122.pdf">[PDF]</a>
             </div>
         </div>
 
@@ -120,7 +175,7 @@
             <h2>Benchmarking 360° Saliency Models by General-Purpose Metrics</h2>
             <div class="publication-details">
                 Guanchen Li, Xiangjie Sui, Jiebin Yan, Yuming Fang<br>
-                <em> IEEE International Workshop on MultimediaSignal Processing (MMSP)</em>, 2022.
+                <em>IEEE International Workshop on Multimedia Signal Processing (MMSP)</em>, 2022.
             </div>
             <div class="publication-links">
                 <a href="https://ieeexplore.ieee.org/abstract/document/9949611">[PDF]</a>
@@ -131,18 +186,18 @@
             <h2>A Spatial-Temporal Weighted Method for Asymmetrically Distorted Stereo Video Quality Assessment</h2>
             <div class="publication-details">
                 Yuming Fang, Xiangjie Sui, Jiheng Wang<br>
-                <em> IEEE International Symposium on Circuits and Systems (ISCAS)</em>, 2019.
+                <em>IEEE International Symposium on Circuits and Systems (ISCAS)</em>, 2019.
             </div>
             <div class="publication-links">
                 <a href="https://ieeexplore.ieee.org/abstract/document/8702796">[PDF]</a>
             </div>
         </div>
 
-      <div class="publication">
-           <h3>● Journal</h3><br>
+        <div class="publication">
+            <h3>● Journal</h3><br>
             <h2>Perceptual Quality Assessment of 360° Images Based on Generative Scanpath Representation</h2>
             <div class="publication-details">
-                Xiangjie Sui*, Hanwei Zhu*, Yuming Fang, Shiqi Wang, Zhou Wang (* equal contribution)<br>
+                Xiangjie Sui, Hanwei Zhu, Xuelin Liu, Yuming Fang, Shiqi Wang, Zhou Wang<br>
                 <em>IEEE Transactions on Image Processing (TIP)</em>, 2025.
             </div>
             <div class="publication-links">
@@ -154,7 +209,7 @@
         <div class="publication">
             <h2>2AFC Prompting of Large Multimodal Models for Image Quality Assessment</h2>
             <div class="publication-details">
-                Hanwei Zhu*, Xiangjie Sui*, Baoliang Chen, Xuelin Liu, Peilin Chen, Yuming Fang, Shiqi Wang (* equal contribution)<br>
+                Hanwei Zhu, Xiangjie Sui, Baoliang Chen, Xuelin Liu, Peilin Chen, Yuming Fang, Shiqi Wang<br>
                 <em>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</em>, 2024.
             </div>
             <div class="publication-links">
@@ -162,18 +217,18 @@
                 <a href="https://github.com/h4nwei/2AFC-LMMs">[Code]</a>
             </div>
         </div>
-        
+
         <div class="publication">
             <h2>Perceptual Quality Assessment of Virtual Reality Videos in the Wild</h2>
             <div class="publication-details">
                 Wen Wen, Mu Li, Yiru Yao, Xiangjie Sui, Yabin Zhang, Long Lan, Yuming Fang, Kede Ma<br>
-                <em>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</em>, 2023.
+                <em>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</em>, 2024.
             </div>
             <div class="publication-links">
                 <a href="https://arxiv.org/pdf/2206.08751.pdf">[PDF]</a>
             </div>
         </div>
-        
+
         <div class="publication">
             <h2>Study of Spatio-Temporal Modeling in Video Quality Assessment</h2>
             <div class="publication-details">
@@ -188,7 +243,7 @@
         <div class="publication">
             <h2>Perceptual Quality Assessment of Omnidirectional Images as Moving Camera Videos</h2>
             <div class="publication-details">
-                Xiangjie Sui, Kede Ma, Yiru Yao, and Yuming Fang<br>
+                Xiangjie Sui, Kede Ma, Yiru Yao, Yuming Fang<br>
                 <em>IEEE Transactions on Visualization and Computer Graphics (TVCG)</em>, 2022.
             </div>
             <div class="publication-links">
@@ -197,12 +252,11 @@
             </div>
         </div>
 
-
         <div class="publication">
-            <h2>Perceptual Quality Assessment for Asymmetrically Distorted Stereoscopic Video by Temporal Binocular Rivalr</h2>
+            <h2>Perceptual Quality Assessment for Asymmetrically Distorted Stereoscopic Video by Temporal Binocular Rivalry</h2>
             <div class="publication-details">
                 Yuming Fang, Xiangjie Sui, Jiheng Wang, Jiebin Yan, Jianjun Lei, Patrick Le Callet<br>
-                <em> IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</em>, 2021.
+                <em>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</em>, 2021.
             </div>
             <div class="publication-links">
                 <a href="https://ieeexplore.ieee.org/document/9247139">[PDF]</a>
@@ -210,24 +264,24 @@
         </div>
 
         <div class="publication">
-            <h2>Asymmetrically Distorted 3D Video Quality Assessment: From the Motion Variation to Perceived Quality</h2>
+            <h2>Objective Quality Assessment of Synthesized Images by Local Variation Measurement</h2>
             <div class="publication-details">
-                Yuming Fang, Xiangjie Sui, Jiebin Yan, Yifan Zuo, Jiheng Wang, Zhaoqian Li <br>
-                <em> Signal Processing (SP)</em>, 2021.
+                Xiangjie Sui, Mengna Ding, Jiebin Yan, Yuming Fang, Yifan Zuo, Zuowen Tan<br>
+                <em>Signal Processing: Image Communication (SPIC)</em>, 2021.
             </div>
             <div class="publication-links">
-                <a href="https://drive.google.com/file/u/0/d/1r-TjMY_G7Odcnbzo5q60E23F9SsNUQTD/view">[PDF]</a>
+                <a href="https://drive.google.com/file/d/1dUBfgl4txR1gaX5mGkKnUJ1PjTP2Gu77/view">[PDF]</a>
             </div>
         </div>
 
         <div class="publication">
-            <h2>Objective Quality Assessment of Synthesized Images by Local Variation Measurement</h2>
+            <h2>Asymmetrically Distorted 3D Video Quality Assessment: From the Motion Variation to Perceived Quality</h2>
             <div class="publication-details">
-                Xiangjie Sui, Mengna Ding, Jiebin Yan, Yuming Fang, Yifan Zuo, Zuowen Tan<br>
-                <em> Signal Processing: Image Communication (SPIC)</em>, 2021.
+                Yuming Fang, Xiangjie Sui, Jiebin Yan, Yifan Zuo, Jiheng Wang, Zhaoqian Li<br>
+                <em>Signal Processing</em>, 2021.
             </div>
             <div class="publication-links">
-                <a href="https://drive.google.com/file/d/1dUBfgl4txR1gaX5mGkKnUJ1PjTP2Gu77/view">[PDF]</a>
+                <a href="https://drive.google.com/file/u/0/d/1r-TjMY_G7Odcnbzo5q60E23F9SsNUQTD/view">[PDF]</a>
             </div>
         </div>
 
@@ -236,7 +290,7 @@
             <h2>视频质量评价研究综述</h2>
             <div class="publication-details">
                 鄢杰斌, 方玉明, 刘学林, 姚怡茹, 眭相杰<br>
-                <em> 计算机学报</em>, 2023.
+                <em>计算机学报</em>, 2023.
             </div>
             <div class="publication-links">
                 <a href="http://cjc.ict.ac.cn/online/onlinepaper/yjb-2023928154947.pdf">[PDF]</a>
@@ -247,14 +301,12 @@
             <h2>无参考图像质量评价研究进展</h2>
             <div class="publication-details">
                 方玉明, 眭相杰, 鄢杰斌, 刘学林, 黄丽萍<br>
-                <em> 中国图象图形学报</em>, 2021.
+                <em>中国图象图形学报</em>, 2021.
             </div>
             <div class="publication-links">
                 <a href="http://www.cjig.cn/jig/ch/reader/create_pdf.aspx?file_no=20210203&flag=1&year_id=2021&quarter_id=2">[PDF]</a>
             </div>
         </div>
-        
-
 
         <!-- Repeat the publication block for each publication -->
     </div>

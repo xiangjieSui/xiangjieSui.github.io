@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xiangjie Sui's Homepage</title>
+    <title>Xiangjie Sui</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #ffffff;
             margin: 0;
             padding: 20px;
+            box-sizing: border-box;
+        }
+        *, *::before, *::after {
+            box-sizing: inherit;
         }
         .card {
             background-color: #fff;
@@ -19,22 +23,25 @@
             width: 90%;
             max-width: 820px;
             display: flex;
-            align-items: left;
+            align-items: center;
+            justify-content: space-between;
+            gap: 36px;
             padding: 40px;
             border-radius: 10px;
         }
-        .card img{
+        .card img {
             width: 180px;
             height: 200px;
             margin-top: 30px;
-            margin-right: 20px;
+            margin-right: 0;
             border-radius: 10px;
-            justify-content: center;
-            align-items: right;
+            object-fit: cover;
+            flex-shrink: 0;
         }
         .card-content {
             margin-left: 30px;
-            flex-grow: 1;
+            flex: 1 1 auto;
+            max-width: 560px;
         }
         .card-header {
             font-size: 28px;
@@ -52,20 +59,53 @@
             text-decoration: none;
         }
         .card-links {
-            font-size: 20px;
+            font-size: clamp(16px, 2vw, 20px);
             list-style-type: none;
             padding: 0;
+            display: flex;
+            flex-wrap: nowrap;
+            gap: clamp(10px, 2vw, 18px);
+            white-space: nowrap;
+            overflow-x: auto;
         }
         .card-links li {
             margin: 5px 0;
         }
         .card-links a {
-            margin-right: 18px;
             color: #0000EE;
             text-decoration: none;
         }
         .card-links a:hover {
             text-decoration: underline;
+        }
+        @media (max-width: 700px) {
+            body {
+                padding: 12px;
+            }
+            .card {
+                flex-direction: column-reverse;
+                align-items: flex-start;
+                gap: 0;
+                margin: 24px auto;
+                width: 100%;
+                padding: 24px;
+            }
+            .card-content {
+                margin-left: 0;
+                max-width: none;
+            }
+            .card-header {
+                font-size: 26px;
+            }
+            .card-info {
+                font-size: 17px;
+                line-height: 1.7;
+            }
+            .card img {
+                width: 140px;
+                height: 156px;
+                margin: 0 0 20px 0;
+            }
         }
     </style>
 </head>
@@ -87,8 +127,8 @@
                 <a href="./pages/bio.html">Biography</a>
                 <a href="./pages/pub.html">Publications</a>
                 <a href="https://scholar.google.com/citations?user=IAnTG2cAAAAJ&hl">Google Scholar</a>
-                <a href="https://github.com/xiangjieSui">Github</a>
-                <a href="./pages/cv.pdf" target="_blank">CV(.pdf)</a>
+                <a href="https://github.com/xiangjieSui">GitHub</a>
+                <a href="./pages/cv.pdf" target="_blank">CV</a>
             </ul>
         </div>
   
