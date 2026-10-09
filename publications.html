@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Selected Publications | Visual Perceptual Research Group</title>
+<link rel="icon" href="./assets/vprg-mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./assets/site.css">
+<script src="./assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="nav-wrap" aria-label="Primary navigation">
+    <a class="brand" href="./index.html" aria-label="Group home"><img class="brand-logo" src="./assets/vprg-mark.svg" alt="" width="38" height="38"><span>Visual Perceptual Research Group</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+    <ul class="nav-links" id="primary-menu">
+      <li><a href="./index.html">Home</a></li><li><a href="./research.html">Research</a></li><li><a href="./publications.html" aria-current="page">Publications</a></li><li><a href="./team.html">Team</a></li><li><a href="./join.html">Join Us</a></li><li><a href="./xiangjie-sui.html">Xiangjie Sui</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+  <section class="page-width selected-publications-intro">
+    <p class="eyebrow">Research outputs</p>
+    <h1 class="page-title">Selected Publications</h1>
+    <p>Representative work in visual quality assessment, visual attention, and reliable vision-language models.</p>
+  </section>
+  <section class="page-width selected-publications" aria-label="Selected publications">
+    <article class="selected-publication">
+      <figure class="selected-publication-figure"><img src="./assets/publications/qdebias-framework.png" alt="Diagram of Q-Debias, which exposes perception bias with a distorted conditional image and mitigates it through quality-aware prompting."><figcaption>Q-Debias framework</figcaption></figure>
+      <div class="selected-publication-copy"><p class="publication-venue">AAAI 2026 <span>Best Poster Paper</span></p><h2>Mitigating Perception Bias: A Training-Free Approach to Enhance LMM for Image Quality Assessment</h2><p class="publication-authors">Baoliang Chen, Siyi Pan, Dongxu Wu, Liang Xie, <strong>Xiangjie Sui</strong>, Lingyu Zhu, Hanwei Zhu</p><p>We expose semantic bias in large multimodal models with controlled degradations, then use a training-free prompting scheme to make image-quality judgments more perceptually reliable.</p><p class="publication-actions"><a href="https://doi.org/10.1609/aaai.v40i4.37265" target="_blank" rel="noopener">Paper</a><a href="https://barrypan12138.github.io/Q-Debias/" target="_blank" rel="noopener">Project &amp; code</a></p></div>
+    </article>
+    <article class="selected-publication">
+      <figure class="selected-publication-figure"><img src="./assets/publications/corruption-reliability.png" alt="The same vision-language model answering a visual question for a clean image and a defocus-corrupted image."><figcaption>Corruption-induced reliability failure</figcaption></figure>
+      <div class="selected-publication-copy"><p class="publication-venue">arXiv · 2025</p><h2>Diagnosing Corruption-Induced Reliability Failures in Vision-Language Models</h2><p class="publication-authors"><strong>Xiangjie Sui</strong>, Songyang Li, Hanwei Zhu, Baoliang Chen, Yuming Fang, Xin Sun</p><p>We benchmark how visual corruptions alter vision-language model responses and introduce a discriminative robustness alignment metric to expose reliability failures in perceptual tasks.</p><p class="publication-actions"><a href="https://arxiv.org/abs/2511.19032" target="_blank" rel="noopener">Paper</a><a href="https://github.com/xiangjieSui/Bench-C" target="_blank" rel="noopener">Code</a></p></div>
+    </article>
+    <article class="selected-publication">
+      <figure class="selected-publication-figure"><img src="./assets/publications/gsr-framework.png" alt="Diagram of the generative scanpath representation converter and quality evaluator for omnidirectional images."><figcaption>Generative scanpath representation</figcaption></figure>
+      <div class="selected-publication-copy"><p class="publication-venue">IEEE Transactions on Image Processing · 2025</p><h2>Perceptual Quality Assessment of 360° Images Based on Generative Scanpath Representation</h2><p class="publication-authors"><strong>Xiangjie Sui</strong>, Hanwei Zhu, Xuelin Liu, Yuming Fang, Shiqi Wang, Zhou Wang</p><p>We model the viewing experience of 360° images as generative scanpath sequences, focusing quality assessment on the locally attended regions that drive perceptual judgments.</p><p class="publication-actions"><a href="https://ieeexplore.ieee.org/abstract/document/11080124" target="_blank" rel="noopener">Paper</a><a href="https://github.com/xiangjieSui/GSR" target="_blank" rel="noopener">Code</a></p></div>
+    </article>
+    <article class="selected-publication">
+      <figure class="selected-publication-figure"><img src="./assets/publications/twoafc-motivation.png" alt="Two-alternative forced choice examples used to evaluate image quality assessment by large multimodal models."><figcaption>2AFC probing for LMMs</figcaption></figure>
+      <div class="selected-publication-copy"><p class="publication-venue">IEEE Transactions on Circuits and Systems for Video Technology · 2024</p><h2>2AFC Prompting of Large Multimodal Models for Image Quality Assessment</h2><p class="publication-authors">Hanwei Zhu, <strong>Xiangjie Sui</strong>, Baoliang Chen, Xuelin Liu, Peilin Chen, Yuming Fang, Shiqi Wang</p><p>We adapt the two-alternative forced-choice protocol from vision science to probe and quantify the image-quality assessment capability of large multimodal models.</p><p class="publication-actions"><a href="https://arxiv.org/pdf/2402.01162" target="_blank" rel="noopener">Paper</a><a href="https://github.com/h4nwei/2AFC-LMMs" target="_blank" rel="noopener">Code</a></p></div>
+    </article>
+    <article class="selected-publication">
+      <figure class="selected-publication-figure"><img src="./assets/publications/scandmm-framework.jpg" alt="The ScanDMM framework with state initialization, transition, and emission functions for 360-degree scanpath prediction."><figcaption>Proposed ScanDMM framework</figcaption></figure>
+      <div class="selected-publication-copy"><p class="publication-venue">CVPR 2023</p><h2>ScanDMM: A Deep Markov Model of Scanpath Prediction for 360° Images</h2><p class="publication-authors"><strong>Xiangjie Sui</strong>, Yuming Fang, Hanwei Zhu, Shiqi Wang, Zhou Wang</p><p>ScanDMM learns the temporal dynamics of visual attention to predict realistic scanpaths in 360° scenes, beyond static saliency maps and unconstrained generative trajectories.</p><p class="publication-actions"><a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Sui_ScanDMM_A_Deep_Markov_Model_of_Scanpath_Prediction_for_360deg_CVPR_2023_paper.pdf" target="_blank" rel="noopener">Paper</a><a href="https://github.com/xiangjieSui/ScanDMM" target="_blank" rel="noopener">Code</a></p></div>
+    </article>
+    <article class="selected-publication">
+      <figure class="selected-publication-figure"><img src="./assets/publications/img2video-framework.jpg" alt="Framework that samples a scanpath-conditioned video sequence and pools frame-level quality scores for omnidirectional image assessment."><figcaption>Proposed omnidirectional IQA framework</figcaption></figure>
+      <div class="selected-publication-copy"><p class="publication-venue">IEEE Transactions on Visualization and Computer Graphics · 2022</p><h2>Perceptual Quality Assessment of Omnidirectional Images as Moving Camera Videos</h2><p class="publication-authors"><strong>Xiangjie Sui</strong>, Kede Ma, Yiru Yao, Yuming Fang</p><p>We formulate the perceived quality of omnidirectional images through moving-camera videos that reflect how viewers explore an immersive scene.</p><p class="publication-actions"><a href="https://arxiv.org/pdf/2005.10547.pdf" target="_blank" rel="noopener">Paper</a><a href="https://github.com/xiangjieSui/img2video" target="_blank" rel="noopener">Code</a></p></div>
+    </article>
+  </section>
+  <section class="page-width selected-publications-footer"><p>For the complete and most current publication record, see <a href="https://scholar.google.com/citations?user=IAnTG2cAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p></section>
+</main>
+<footer class="site-footer"><div class="footer-inner"><span>© <span id="year">2026</span> Visual Perceptual Research Group</span><div class="footer-links"><a href="mailto:xjsui@cityu.edu.mo">Email</a><a href="./xiangjie-sui.html">Xiangjie Sui</a><a href="./join.html">Join Us</a><a href="https://cityu.edu.mo/en/" target="_blank" rel="noopener">CityU Macau</a></div></div></footer>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none">
+<title>VPRG — visual field and fixation</title>
+<path d="M10 48Q48 5 86 48Q48 91 10 48Z" stroke="#163b5d" stroke-width="3"/>
+<ellipse cx="48" cy="48" rx="18" ry="29" stroke="#163b5d" stroke-width="2"/>
+<path d="M20 48H76" stroke="#163b5d" stroke-width="1.5"/>
+<path d="M35 58L48 48L60 38" stroke="#163b5d" stroke-width="2"/>
+<circle cx="35" cy="58" r="3" fill="#fff" stroke="#163b5d" stroke-width="2"/>
+<circle cx="48" cy="48" r="5" fill="#163b5d"/>
+<circle cx="60" cy="38" r="3" fill="#fff" stroke="#163b5d" stroke-width="2"/>
+</svg>

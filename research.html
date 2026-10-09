@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research | Visual Perceptual Research Group</title>
+<link rel="icon" href="./assets/vprg-mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./assets/site.css">
+<script src="./assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+        <nav class="nav-wrap" aria-label="Primary navigation">
+            <a class="brand" href="./index.html" aria-label="Group home"><img class="brand-logo" src="./assets/vprg-mark.svg" alt="" width="38" height="38"><span>Visual Perceptual Research Group</span></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+            <ul class="nav-links" id="primary-menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./research.html" aria-current="page">Research</a></li>
+                <li><a href="./publications.html">Publications</a></li>
+                <li><a href="./team.html">Team</a></li>
+                <li><a href="./join.html">Join Us</a></li>
+                <li><a href="./xiangjie-sui.html">Xiangjie Sui</a></li>
+            </ul>
+        </nav>
+    </header>
+<main id="main">
+<section class="page-width section research-page-intro" aria-labelledby="research-title">
+    <div class="section-grid">
+        <p class="section-label">Research</p>
+        <div class="section-content">
+            <h1 id="research-title" class="page-title">Research Areas</h1>
+            <p class="section-intro">We connect human visual perception with computational models for images, videos, immersive media, and vision-language systems. Our work asks how visual content is experienced, measured, explored, and made reliable.</p>
+        </div>
+    </div>
+</section>
+
+<section class="page-width research-showcase" aria-label="Research areas and representative publications">
+    <article class="research-feature" id="quality">
+        <figure class="research-figure research-figure-real">
+            <div class="research-image-pair">
+                <div class="research-image-panel">
+                    <img src="./assets/research/vqa-reference.png" alt="Reference turtle image without degradation">
+                    <p><strong>Reference image</strong><span>Undistorted visual content</span></p>
+                </div>
+                <div class="research-image-panel">
+                    <img src="./assets/research/vqa-blurred.png" alt="The same turtle image degraded by strong blur">
+                    <p><strong>Blurred image</strong><span>Perceptual degradation</span></p>
+                </div>
+            </div>
+        </figure>
+        <div class="research-copy">
+            <p class="research-index">01</p>
+            <h2>Visual Quality Assessment</h2>
+            <p>We develop perceptually aligned models that estimate the quality of images and videos as people experience them. This includes no-reference quality assessment, generative scanpath representations, and large multimodal models for image quality assessment.</p>
+            <p class="research-methods">Perceptual modeling · Image/video quality · LMM-based assessment</p>
+            <div class="related-publications">
+                <p>Related publications</p>
+                <a href="https://ieeexplore.ieee.org/abstract/document/11080124" target="_blank" rel="noopener">Perceptual Quality Assessment of 360° Images Based on Generative Scanpath Representation, <em>TIP 2025</em></a>
+                <a href="https://arxiv.org/pdf/2402.01162" target="_blank" rel="noopener">2AFC Prompting of Large Multimodal Models for Image Quality Assessment, <em>TCSVT 2024</em></a>
+                <a href="https://arxiv.org/pdf/2005.10547.pdf" target="_blank" rel="noopener">Perceptual Quality Assessment of Omnidirectional Images as Moving Camera Videos, <em>TVCG 2022</em></a>
+            </div>
+        </div>
+    </article>
+
+    <article class="research-feature research-feature-attention" id="attention">
+        <figure class="research-figure research-figure-real">
+            <div class="research-image-pair research-image-pair-attention">
+                <div class="research-image-panel">
+                    <img src="./assets/research/scanpath-panorama.jpg" alt="A panoramic scene used for visual attention research">
+                    <p><strong>Panoramic scene</strong><span>A 360° indoor viewing environment</span></p>
+                </div>
+                <div class="research-image-panel">
+                    <img src="./assets/research/scanpath-saliency.png" alt="Human visual saliency map for the same panoramic scene">
+                    <p><strong>Human saliency map</strong><span>Aggregated fixation density over the scene</span></p>
+                </div>
+                <div class="research-image-panel">
+                    <img src="./assets/research/scanpath-p21-left.png" alt="An observed scanpath over the same panoramic scene">
+                    <p><strong>Observed scanpath I</strong><span>One viewer's fixation sequence over this scene</span></p>
+                </div>
+                <div class="research-image-panel">
+                    <img src="./assets/research/scanpath-p21-right.png" alt="A second observed scanpath over the same panoramic scene">
+                    <p><strong>Observed scanpath II</strong><span>Another viewer's fixation sequence over this scene</span></p>
+                </div>
+            </div>
+        </figure>
+        <div class="research-copy">
+            <p class="research-index">02</p>
+            <h2>Visual Attention</h2>
+            <p>We model not only where observers look, but also the sequence in which they explore a scene. These scanpath models help explain visual attention and support perceptual analysis for 360° images and videos.</p>
+            <p class="research-methods">Saliency · Scanpath prediction · Generative attention models</p>
+            <div class="related-publications">
+                <p>Related publications</p>
+                <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Sui_ScanDMM_A_Deep_Markov_Model_of_Scanpath_Prediction_for_360deg_CVPR_2023_paper.pdf" target="_blank" rel="noopener">ScanDMM: A Deep Markov Model of Scanpath Prediction for 360° Images, <em>CVPR 2023</em></a>
+                <a href="https://ieeexplore.ieee.org/abstract/document/9949611" target="_blank" rel="noopener">Benchmarking 360° Saliency Models by General-Purpose Metrics, <em>MMSP 2022</em></a>
+            </div>
+        </div>
+    </article>
+
+    <article class="research-feature" id="robustness">
+        <figure class="research-figure research-figure-real">
+            <img src="./assets/research/vlm-clean-defocus.png" alt="A vision-language model answering the same question for a clean image and a defocus-blurred image">
+            <figcaption><strong>Clean versus defocus blur</strong><span>The same visual question can produce an overconfident incorrect response after corruption.</span></figcaption>
+        </figure>
+        <div class="research-copy">
+            <p class="research-index">03</p>
+            <h2>Vision-Language Model Robustness</h2>
+            <p>We examine how visual corruptions and perception bias affect vision-language models, then develop practical ways to diagnose failures and improve their use in perceptual tasks such as image quality assessment.</p>
+            <p class="research-methods">Corruption diagnosis · Perception bias · Reliable multimodal models</p>
+            <div class="related-publications">
+                <p>Related publications</p>
+                <a href="https://arxiv.org/abs/2511.19032" target="_blank" rel="noopener">Diagnosing Corruption-Induced Reliability Failures in Vision-Language Models, <em>arXiv 2025</em></a>
+            </div>
+        </div>
+    </article>
+</section>
+</main>
+<footer class="site-footer">
+        <div class="footer-inner">
+            <span>© <span id="year">2026</span> Visual Perceptual Research Group</span>
+            <div class="footer-links">
+                <a href="mailto:xjsui@cityu.edu.mo">Email</a>
+                <a href="./xiangjie-sui.html">Xiangjie Sui</a>
+                <a href="./join.html">Join Us</a>
+                <a href="https://cityu.edu.mo/en/" target="_blank" rel="noopener">CityU Macau</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
